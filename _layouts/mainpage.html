@@ -20,11 +20,11 @@ layout: default
 		<ul>
             {% if post.categories contains "writeup" %}
 			<li>
-				<div class="post-date code">
-					<span>{{ post.tags }}</span>
-				</div>
 				<div class="title">
 					<a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">{{ post.title }}</a>
+				</div>
+                <div class="title">
+					<span>{{ post.tags }}</span>
 				</div>
 			</li>
             {% endif %}
