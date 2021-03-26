@@ -15,13 +15,13 @@ layout: default
 <section>
 	{% for post in site.posts %}
 		
-		<h3 class="code">CTF Challenge Writeups</h3>
+		<h3 class="code" style="margin-top: 70px;">CTF Challenge Writeups</h3>
 
 		<ul>
             {% if post.categories contains "writeup" %}
 			<li>
 				<div class="post-date code">
-					<span>{{ post.date | date: "%b %d" }}</span>
+					<span>{{ post.tags }}</span>
 				</div>
 				<div class="title">
 					<a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">{{ post.title }}</a>

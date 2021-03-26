@@ -2,6 +2,7 @@
 title: Lorem Ipsum
 updated: 2020-03-26 00:00
 category: writeup
+tags: pwn
 ---
 
 ### The standard Lorem Ipsum passage, used since the 1500s
