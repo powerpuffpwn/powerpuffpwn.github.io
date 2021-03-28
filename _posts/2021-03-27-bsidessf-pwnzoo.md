@@ -15,7 +15,7 @@ The pwnzoo binary is a unstripped 64bit ELF file
 pwnzoo: ELF 64-bit LSB shared object, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, BuildID[sha1]=031d178cb75ab5e94d9bba6da546a1a3d3f973b6, for GNU/Linux 3.2.0, with debug_info, not stripped
 ```
 
-On startup you have to decide if you want to play as a cat or dog and provide a name for the animal. Then a menu is presented where you can were you can speak, change the animals name are exit
+At first you have to decide if you want to play as a cat or dog and provide a name for the animal. Then a menu is presented where you can were you can speak, change the animals name are exit
 
 ```bash
 > ./pwnzoo
@@ -77,7 +77,7 @@ The "construct_animal" function first allocates 48 (0x30) bytes of memory, which
 00001375  *(rax + 0x27) = 0
 00001385  int32_t* rax_11
 ```
-We then are asked if we want to play as a cat or a dog. Depending on the provided answer, the binary sets the the first four bytes to 1 (cat) or zero (dog). It also writes the function pointer of a "print_" function into the allocated memory. This pointer will later be called if we select the "Speak" entry invthe main menu.
+We then are asked if we want to play as a cat or a dog. Depending on the provided answer, the binary sets the the first four bytes to 1 (cat) or 0 (dog). It also writes the function pointer of a "print_" function into the allocated memory. This pointer will later be called if we select the "Speak" entry invthe main menu.
 
 ```
 00001385  while (true)
