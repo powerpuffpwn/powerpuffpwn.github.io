@@ -1,6 +1,6 @@
 ---
-title: BSidesSF Pwnzwoo challenge
-updated: 2020-03-27 00:00
+title: BSidesSF 2021 Pwnzwoo 
+updated: 2021-03-27 00:00
 category: writeup
 tags: pwn
 author: h0n10
@@ -121,7 +121,7 @@ We then are asked if we want to play as a cat or a dog. Depending on the provide
 ```
 So, the animal "object" has the following memory layout:
 
-![animal memory layout](assets/bsidessf-pwnzoo/memory.png)
+![animal memory layout](/assets/bsidessf-pwnzoo/memory.png)
 
 You can have a look into an actual object by setting a breakpoint at the end of construct_animal and hexdump the pointer in RAX:
 
