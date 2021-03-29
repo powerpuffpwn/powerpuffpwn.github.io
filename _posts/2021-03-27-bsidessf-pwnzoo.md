@@ -1,12 +1,12 @@
 ---
-title: BSidesSF 2021 Pwnzwoo 
+title: BSidesSF 2021 Pwnzoo 
 updated: 2021-03-27 00:00
 category: writeup
 tags: pwn
-author: h0n10
+author: h0ng10
 ---
 
-### Getting started
+### Pwnzoo overview
 
 The pwnzoo binary is a unstripped 64bit ELF file
 
