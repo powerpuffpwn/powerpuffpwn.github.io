@@ -142,7 +142,7 @@ If you have a look on the binary functions, you will notice that there is a "pri
 
 change_name function
 
-The change_name function receives the animal "object as parameter and sets the name within the object. Here the code (as BinaryNinjas HL IL):
+The change_name function receives the animal "object as parameter and sets the name within the object. Here the code (as BinaryNinjas HLIL):
 
 ```
 00001412  printf(format: "New name: ")
@@ -165,9 +165,9 @@ If you look closely you can also identify the vulnerability: The length of the s
 
 Here the initial version of the exploit, which basically overwrites the pointers with eight "\x41" (A)s. The general idea is:
 
-- On initializatzion, provide a 36 character long name, which will overwrite the "\x00" byte from animal_construct
-- Change the name with a 44 character long name. This will overwrite the function pointer with our value
-- Invoke the speak function from the menu. This will call the overwritten pointer.
+1. On initializatzion, provide a 36 character long name, which will overwrite the "\x00" byte from animal_construct
+2. Change the name with a 44 character long name. This will overwrite the function pointer with our value
+3. Invoke the speak function from the menu. This will call the overwritten pointer.
 
 ```python
 from pwn import *
@@ -209,11 +209,11 @@ We still have to deal with ASLR: The address of the print_flag function gets ran
 
 So wee need to modify the exploit workflow a bit:
 
-- On initializatzion, provide a 36 character long name, which will overwrite the "\x00" byte from animal_construct
-- Invoke the speak function form the menu. This will leak the current pointer value within the returned name
-- Use the leaked pointer value to calculate the print_flag address
-- Change the name of the animal, providing a 44 character long name (36 random characters + 8 bytes from the calulcated pointer)
-- Invoke the speak function from the menu to call the overwritten pointer.
+1. On initializatzion, provide a 36 character long name, which will overwrite the "\x00" byte from animal_construct
+2. Invoke the speak function form the menu. This will leak the current pointer value within the returned name
+3. Use the leaked pointer value to calculate the print_flag address
+4. Change the name of the animal, providing a 44 character long name (36 random characters + 8 bytes from the calulcated pointer)
+5. Invoke the speak function from the menu to call the overwritten pointer.
 
 Here is the final exploit
 
