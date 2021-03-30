@@ -8,14 +8,14 @@ author: h0ng10
 
 ### Pwnzoo overview
 
-The pwnzoo binary is a unstripped 64bit ELF file
+The pwnzoo binary is a unstripped 64bit ELF file.
 
 ```bash
 > file pwnzoo
 pwnzoo: ELF 64-bit LSB shared object, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, BuildID[sha1]=031d178cb75ab5e94d9bba6da546a1a3d3f973b6, for GNU/Linux 3.2.0, with debug_info, not stripped
 ```
 
-At first you have to decide if you want to play as a cat or dog and provide a name for the animal. Then a menu is presented where you can were you can speak, change the animals name are exit
+At first you have to decide if you want to play as a cat or dog and provide a name for the animal. Then a menu is presented where you can were you can speak, change the animals name are exit.
 
 ```bash
 > ./pwnzoo
@@ -129,8 +129,6 @@ You can have a look into an actual object by setting a breakpoint at the end of 
 pwndbg> break *contruct_animal+230
 pwndbg> r
 ...
-pwndbg> hexdump $eax
-+0000 0x555592a0
 pwndbg> hexdump $rax
 +0000 0x5555555592a0  01 00 00 00  20 20 20 20  20 20 20 20  20 20 20 20  │....│....│....│....│
 +0010 0x5555555592b0  20 20 20 20  20 20 20 20  20 20 20 20  20 20 20 20  │....│....│....│....│
