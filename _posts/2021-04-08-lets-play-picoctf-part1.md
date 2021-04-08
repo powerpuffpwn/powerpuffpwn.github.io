@@ -1,6 +1,6 @@
 ---
 title: Let's play PicoCTF part 1 (General Skills) 
-updated: 2021-04-09 00:00
+updated: 2021-04-08 00:00
 category: event
 author: h0ng10
 ---
