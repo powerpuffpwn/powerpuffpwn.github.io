@@ -36,7 +36,7 @@ layout: default
         {% if post.categories contains "event" %}
 		<ul>
 			<li>
-				<a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">{{ post.event-date }} | {{ post.title }}</a>
+				<a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">{{ post.event-date | date: "%-d %B %Y" }} | {{ post.title }}</a>
 
 			</li>
            
