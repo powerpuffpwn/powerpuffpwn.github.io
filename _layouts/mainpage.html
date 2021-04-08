@@ -28,3 +28,19 @@ layout: default
 	{% endfor %}
 </section>
 
+<section>
+	<h3 style="margin-top: 70px;">CTF events and meetups</h3>
+	{% for post in site.posts %}
+		<ul>
+            {% if post.categories contains "event" %}
+			<li>
+				<div class="title">
+					<a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">{{ post.title }}</a>
+				</div>
+			</li>
+            {% endif %}
+		</ul>
+
+	{% endfor %}
+</section>
+
