@@ -11,10 +11,6 @@ layout: default
 	{{ content }}
 
 </article>
-<article>
-	<iframe src="https://discord.com/widget?id=829789407216533504&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
-</article>
-
 <section>
 	<h3 style="margin-top: 70px;">CTF Challenge Writeups</h3>
 	{% for post in site.posts %}
@@ -31,7 +27,6 @@ layout: default
 
 	{% endfor %}
 </section>
-
 <section>
 	<h3 style="margin-top: 70px;">CTF events and meetups</h3>
 	{% for post in site.posts reversed %}
@@ -48,4 +43,7 @@ layout: default
 
 	{% endfor %}
 </section>
+<article>
+	<iframe src="https://discord.com/widget?id=829789407216533504&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+</article>
 
