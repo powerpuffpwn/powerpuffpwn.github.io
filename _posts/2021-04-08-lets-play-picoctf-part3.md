@@ -1,5 +1,5 @@
 ---
-title: Let's play PicoCTF part 2 (Binary Exploitation & Reversing) 
+title: Let's play PicoCTF part 3 (Binary Exploitation & Reversing) 
 updated: 2021-04-08 00:00
 category: event
 author: h0ng10
