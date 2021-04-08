@@ -34,9 +34,8 @@ layout: default
 		<ul>
             {% if post.categories contains "event" %}
 			<li>
-				<div class="title">
-					<a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">{{ post.title }}</a>
-				</div>
+				<a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">{{ post.title }}</a>
+
 			</li>
             {% endif %}
 		</ul>
