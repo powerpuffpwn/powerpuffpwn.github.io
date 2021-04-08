@@ -30,7 +30,7 @@ layout: default
 
 <section>
 	<h3 style="margin-top: 70px;">CTF events and meetups</h3>
-	{% for post in site.posts %}
+	{% for post in site.posts reversed %}
 		<ul>
             {% if post.categories contains "event" %}
 			<li>
