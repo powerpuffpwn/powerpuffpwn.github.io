@@ -15,15 +15,16 @@ layout: default
 <section>
 	<h3 style="margin-top: 70px;">CTF Challenge Writeups</h3>
 	{% for post in site.posts %}
+
+        {% if post.categories contains "writeup" %}
 		<ul>
-            {% if post.categories contains "writeup" %}
 			<li>
 				<div class="title">
 					<a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">{{ post.title }}</a>
 				</div>
 			</li>
-            {% endif %}
 		</ul>
+        {% endif %}
 
 	{% endfor %}
 </section>
@@ -31,14 +32,16 @@ layout: default
 <section>
 	<h3 style="margin-top: 70px;">CTF events and meetups</h3>
 	{% for post in site.posts reversed %}
+		
+        {% if post.categories contains "event" %}
 		<ul>
-            {% if post.categories contains "event" %}
 			<li>
 				<a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">{{ post.title }}</a>
 
 			</li>
-            {% endif %}
+           
 		</ul>
+		{% endif %}
 
 	{% endfor %}
 </section>
