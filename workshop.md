@@ -66,4 +66,4 @@ Die Anzahl der Teilnehmer ist beschränkt. Falls wir zu viele Anmeldungen bekomm
 Wir speichern die von dir ans uns gesendeten Informationen bis zur Durchführung des Workshops. Nach Beendigung des Workshops werden Sie wieder gelöscht. Eine Weitergabe an Dritte erfolgt nicht.
 
 ### Ich habe da noch eine Frage...
-Schick deine Fragen per Mail an [workshop@powerpuffpwn.de](mailto:workshop@powerpuffpwn.de), wir versuchen zeitnah zu antworten. Falls es für den Rest auch interessant sein sollte aktuallisieren wir diese Seite.
+Schick deine Fragen per Mail an [workshop@mogwailabs.de](mailto:workshop@powerpuffpwn.de), wir versuchen zeitnah zu antworten. Falls es für den Rest auch interessant sein sollte aktuallisieren wir diese Seite.
