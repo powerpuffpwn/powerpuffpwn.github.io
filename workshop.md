@@ -9,7 +9,7 @@ event-date: 2023-04-15 09:00
 
 Das Finale des Capture the Flag Wettbewerbs [Cyber Security Challenge Germany (CSCG)](https://cscg.de/) findet diesen Sommer in Ulm statt. Im Rahmen dessen bieten wir in Zusammenarbeit mit der Stadt Ulm sowie den Unternehmen [Code White](https://www.code-white.com/en/) und [MOGWAI LABS](https://mogwailabs.de/en/) einen "Hacking Workshop" an bei dem ihr euch mal am Thema "Capture the Flag" bzw "CTF" ausprobierren könnt.
 
-By the way: Die Bewerbung für das Finale ist bis Ende April noch offen, wenn ihr wollt könnt
+By the way: Die Bewerbung für das Finale ist [noch bis Ende April offen](https://cscg.live/), wenn ihr wollt könnt ihr also noch teilnehmen.
 
 ### Was ist den "Capture the Flag" (CTF)?
 Bei "Capture the Flag" Challenges handelt es sich um kleine Aufgaben aus verschiedenen Security-Bereichen, bei denen ihr euch mit beispielsweise eine Schwachstelle finden und ausnutzen müsst um die Aufgabe zu lösen. Als Lösung erhaltet ihr Zugriff auf eine "Flagge" (typischerweise ein Text in einer Datei oder auf einer Seite. Durch das Abgeben dieser Flagge beweist ihr, dass ihr die Aufgabe gelöst habt und bekommt Punkte.
@@ -28,8 +28,11 @@ Um teilnehmen zu können solltest mindestens 15 Jahre alt sein.
 ### Was muss ich können?
 Wir haben momentan die Teilnehmer:innen in zwei Gruppen aufzuteilen:
 
-- Anfänger, die beispielsweise noch keine Erfahrung mit Linux haben
-- Fortgeschrittene, welche schon zum Beispiel Programmiererfahrung haben und sich mit Betriebssystemen usw. auskennen und mal in den Bereich Cybersecurity reinschnuppern wollen.
+**Anfänger**  
+für Alle die beispielsweise noch keine Erfahrung mit Linux haben
+
+**Fortgeschrittene**  
+Teilnehmer welche schon zum Beispiel Programmiererfahrung haben und sich mit Betriebssystemen usw. auskennen und mal in den Bereich Cybersecurity reinschnuppern wollen.
 
 Dadurch sollte für Alle etwas dabei sein.
 
