@@ -23,7 +23,7 @@ Wo: **Ulmer Verschwörhaus (Weinhof 9, 89073 Ulm)**
 Wir sind ab ca. 8:30 Uhr vor Ort.
 
 ### Wie alt muss ich sein?
-Du solltest mindestens 15 Jahre alt sein.
+Um teilnehmen zu können solltest mindestens 15 Jahre alt sein.
 
 ### Was muss ich können?
 Wir haben momentan die Teilnehmer:innen in zwei Gruppen aufzuteilen:
@@ -53,6 +53,7 @@ Schreibe bitte eine Email mit den folgenden Infos an [workshop@powerpuffpwn.de](
 - Alter bzw. Geburtsdatum
 - Falls vorhanden: Dein IT Hintergrund, bzw. was du schon in dem Bereich gemacht hast. Zwei bis drei Sätze genügen
 - Ob Du ein eigenen Laptop / PC mitbringen kannst
+- Ob Du Linux / Kali installiert hast oder ob wir dir eine Online-Installation zur Verfügung stellen sollen.
 
 Die Anzahl der Teilnehmer ist beschränkt. Falls wir zu viele Anmeldungen bekommen veranstalten wir eventuell einen zweiten Workshop zu einem späteren Zeitpunkt.
 
