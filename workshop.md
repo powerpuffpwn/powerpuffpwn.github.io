@@ -11,6 +11,8 @@ Das Finale des Capture the Flag Wettbewerbs [Cyber Security Challenge Germany (C
 
 By the way: Die Bewerbung für das Finale ist [noch bis Ende April offen](https://cscg.live/), wenn ihr wollt könnt ihr also noch teilnehmen.
 
+![CTF workshop flyer](/assets/ctf-workshop-2023.png)
+
 ### Was ist den "Capture the Flag" (CTF)?
 Bei "Capture the Flag" Challenges handelt es sich um kleine Aufgaben aus verschiedenen Security-Bereichen, bei denen ihr euch mit beispielsweise eine Schwachstelle finden und ausnutzen müsst um die Aufgabe zu lösen. Als Lösung erhaltet ihr Zugriff auf eine "Flagge" (typischerweise ein Text in einer Datei oder auf einer Seite. Durch das Abgeben dieser Flagge beweist ihr, dass ihr die Aufgabe gelöst habt und bekommt Punkte.
 
