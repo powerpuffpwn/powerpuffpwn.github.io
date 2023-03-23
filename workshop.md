@@ -60,7 +60,7 @@ Schreibe bitte eine Email mit den folgenden Infos an [workshop@powerpuffpwn.de](
 
 Die Anzahl der Teilnehmer ist beschränkt. Falls wir zu viele Anmeldungen bekommen veranstalten wir eventuell einen zweiten Workshop zu einem späteren Zeitpunkt.
 
-**Datenschutzhinweis:**
+**Datenschutzhinweis:**  
 Wir speichern die von dir ans uns gesendeten Informationen bis zur Durchführung des Workshops. Nach Beendigung des Workshops werden Sie wieder gelöscht. Eine Weitergabe an Dritte erfolgt nicht.
 
 ### Ich habe da noch eine Frage...
