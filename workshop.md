@@ -9,8 +9,6 @@ event-date: 2023-06-24 09:00
 
 Das Finale des Capture the Flag Wettbewerbs [Cyber Security Challenge Germany (CSCG)](https://cscg.de/) findet diesen Sommer in Ulm statt. Im Rahmen dessen bieten wir in Zusammenarbeit mit der Stadt Ulm sowie den Unternehmen [Code White](https://www.code-white.com/en/) und [MOGWAI LABS](https://mogwailabs.de/en/) einen "Hacking Workshop" an bei dem ihr euch mal am Thema "Capture the Flag" bzw "CTF" ausprobierren könnt.
 
-![CTF workshop flyer](/assets/ctf-workshop-2023.png)
-
 By the way: Die Bewerbung für das Finale ist [noch bis Ende April offen](https://cscg.live/), wenn ihr wollt könnt ihr also noch teilnehmen.
 
 ### Was ist den "Capture the Flag" (CTF)?
