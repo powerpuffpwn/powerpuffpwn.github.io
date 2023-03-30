@@ -1,9 +1,9 @@
 ---
 title: Hacking / CTF Workshop 2023
-updated: 2023-03-23
+updated: 2023-03-30
 category: event
 author: h0ng10
-event-date: 2023-04-15 09:00
+event-date: 2023-06-24 09:00
 ---
 
 
@@ -19,7 +19,7 @@ Bei "Capture the Flag" Challenges handelt es sich um kleine Aufgaben aus verschi
 Capture the Flag Aufgaben sind eine tolle Art einmal in den Bereich "Cybersecurity" hineinzuschnuppern und seine Kenntnisse und Fähigkeiten im Bereich IT zu verbessern. Selbst wenn man nur einzelne Challenges löst und nicht an einem Wettbewerb teilnimmt.
 
 ### Wann und Wo findet das Ganze statt?
-Wann: **Samstag 15.04.2023 von 9 bis 17 Uhr**   
+Wann: **Samstag 24.06.2023 von 9 bis 17 Uhr**   
 Wo: **Ulmer Verschwörhaus (Weinhof 9, 89073 Ulm)**  
 
 Wir sind ab ca. 8:30 Uhr vor Ort.
