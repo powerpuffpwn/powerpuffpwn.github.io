@@ -52,7 +52,7 @@ Der Workshop ist kostenlos. Du musst auch kein Essen oder Trinken mitbringen, da
 
 ### Wo melde ich mich an?
 
-Schreibe bitte eine Email mit den folgenden Infos an [workshop@mowailabs.de](mailto:workshop@mogwailabs.de). Wir bräuchten folgende Informationen:
+Schreibe bitte eine Email mit den folgenden Infos an [workshop@mogwailabs.de](mailto:workshop@mogwailabs.de). Wir bräuchten folgende Informationen:
 
 - Deinen Name
 - Alter bzw. Geburtsdatum
