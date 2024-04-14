@@ -3,5 +3,5 @@ layout: page
 title: powerpuffpwn 
 ---
 
-Powerpuffpwn is an open CTF group from Ulm, Germany. We used to meet at the Ulmer Verschwörhaus. At the moment we try to meet online on Wednesdays between 8 and 10 pm, [on our Discord channel](https://discord.gg/p5RJTeVA5F). Just drop by if you like.
+Powerpuffpwn is an open CTF group from Ulm, Germany. We meet bi-weekly on Thursday at the temporärhaus in Neu-Ulm. You find an up-to-date meeting schedule on the the temporärhaus page: https://temporaerhaus.de/termine-und-oeffnungszeiten/. Everyone, no matter their skill level, is welcome. Just drop by or write us an email "ctf (at) temporaerhaus.de" if you like.
 
