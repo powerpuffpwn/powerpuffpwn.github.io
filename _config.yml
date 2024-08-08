@@ -6,6 +6,7 @@ title: powerpuffpwn
 author_name: powerpuffpwn
 description: powerpuffpwn is a CTF group from Ulm
 logo_url: https://avatars.githubusercontent.com/u/61887079
-
+exclude:
+  - README.md
 # Site Settings
 url:                https://powerpuffpwn.de # main url
