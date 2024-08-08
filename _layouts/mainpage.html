@@ -29,7 +29,15 @@ layout: default
 			</li>
 		</ul>
         {% endif %}
-
+        {% if post.categories contains "encrypted_writeup" %}
+		<ul>
+			<li>
+				<div class="title">
+					<a href="{{ post.url | prepend: 'https://secret.powerpuffpwn.de' }}">{{ post.title }}</a>
+				</div>
+			</li>
+		</ul>
+        {% endif %}
 	{% endfor %}
 </section>
 
